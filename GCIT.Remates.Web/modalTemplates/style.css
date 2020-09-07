@@ -1,0 +1,252 @@
+
+/*Template General*/
+.rk-title-modal{
+	font-size: 16px;
+}
+
+
+.boxInputRadio{
+    display: block;
+    margin: 0 auto;
+    width: 229px;
+    margin-top: 40px
+}
+#monto-remates{
+	margin:0 auto;
+	text-align: center;
+}
+
+.flex-btn-center {
+	margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.btn-remates {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.modal .btn{
+	border-radius: 0;
+	margin:0 5px;
+}
+
+
+/*Cordialito*/
+
+
+.btn-remates{
+    background-color: gray;
+    border: 1px solid gray;
+    color: gold
+}
+
+.btn-remates:hover {
+    background-color: #000;
+    border: none
+}
+
+
+/*ChampionSport*/
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child:hover {
+    background-color: gray;
+    border-color: gray;
+}
+
+/*Betsiete*/
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color:rgb(201, 219, 3);
+    border-color:rgb(201, 219, 3);
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: white;
+    border-color: white;
+}
+
+/*GrupoPitazo25*/
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: #ffed00;
+    border-color: #ffed00;
+    color:#2e3092;
+}
+
+.btn-remates:last-child:hover {
+    background-color: white;
+    border-color: white;
+}
+
+
+/*BetMeridiano*/
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: #94000c;
+    border-color: #94000c;
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+/*Inmejorable*/
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: rgb(69, 159, 95);
+    border-color: #003333;
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+/*Acierta*/
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: rgb(69, 159, 95);
+    border-color: rgb(69, 159, 95);
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: gray;
+    border-color: gray;
+}
+
+
+/*BetPredator*/
+.btn-remates:first-child {
+    background-color: #f79810;
+    border-color: #f79810;
+}
+
+.btn-remates:first-child:hover {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:last-child {
+    background-color: #6f00ac;
+    border-color: #6f00ac;
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: gray;
+    border-color: gray;
+}
+
+/*Grupo757*/
+.btn-remates:first-child {
+    background-color:gray;
+    border-color:gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:last-child {
+    background-color: rgb(35, 52, 123);
+    border-color: rgb(35, 52, 123);
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: rgb(31, 80, 150);
+    border-color: rgb(31, 80, 150);
+}
+
+/*VirtualLotto*/
+.btn-remates:first-child {
+    background-color:gray;
+    border-color:gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: #313130;
+    border-color: #313130;
+}
+
+.btn-remates:last-child {
+    background-color: rgb(42, 57, 116);
+    border-color: rgb(42, 57, 116);
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: gray;
+    border-color: gray;
+}

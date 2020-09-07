@@ -1,0 +1,484 @@
+body{
+    background-color:white;
+}
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url("../../../font/meridiano/RobotoCondensed-Regular.eot"); /* IE9 Compat Modes */
+    src: url("../../../font/meridiano/RobotoCondensed-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../../font/meridiano/RobotoCondensed-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../../../font/meridiano/RobotoCondensed-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../../../font/meridiano/RobotoCondensed-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../../../font/meridiano/RobotoCondensed-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../../../font/meridiano/RobotoCondensed-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, span, div, nav {
+    font-family: 'RobotoCondensed-Regular';
+}
+
+body {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    background-color: #f6f7e9;
+    overflow-y: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-inverse {
+    background-color: #f6f7e9;
+    border-color: unset;
+    border-top: none;
+    border-bottom: none;
+}
+
+.navbar-brand {
+    background-image: url('../../../Asset/Empresas.Logo/logo.acierta.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 46%;
+    background-position: center center;
+    height: 58px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #535458;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        color: white;
+        border-bottom: none;
+    }
+
+div#bs-example-navbar-collapse-1 li > .dropdown-menu {
+    border: none;
+    background-image: unset;
+}
+
+.btn-lobby {
+    color: white;
+}
+
+    .btn-lobby:hover {
+        color: #f1d488;
+        background-color: rgb(85, 177, 102);
+    }
+
+/*#GroupBtnLvl1 button:hover {
+    color: #2e3092;
+    background-color: unset;
+}*/
+
+#GroupBtnLvl1 button {
+    background: transparent;
+    background: unset;
+    border: none;
+    color: #535458;
+}
+
+button .Btn-Menu {
+    color: white;
+    font-weight: bold;
+}
+
+#btnInicioSsesion {
+    padding: 2px 23px;
+}
+
+.btn-lobby > h5 {
+    color: white;
+}
+
+.btn-lobby:hover > h5 {
+    color: white !important;
+}
+
+
+#btnInicioSsesion > a > span {
+    color: white;
+}
+
+.modal-header, .modal-title {
+    background: #459f5f;
+    color: white;
+}
+
+#LoginAceptar, #deposito, #depositoCasino {
+    background-color: rgb(69, 159, 95);
+    border: 1px solid rgb(69, 159, 95);
+    border-radius: 0;
+    color: white;
+}
+
+    #LoginAceptar:hover, #deposito:hover {
+        background-color: gray;
+        border: 1px solid white;
+    }
+
+#btLCancelar, #transferencia, #transferenciaCasino {
+    background-color: gray;
+    border: none;
+    border-radius: 0;
+}
+
+    #btLCancelar:hover, #transferencia:hover, #depositoCasino:hover, #transferenciaCasino:hover {
+        background-color: #55b166;
+        border: none;
+    }
+
+#Billetera .modal-body, #BilleteraCasinoModal .modal-body {
+    background-color: #e0e1e3;
+}
+
+    #Billetera .modal-body > .list-group > .list-group-item, #BilleteraCasinoModal .modal-body #saldosCasino > .list-group > .list-group-item {
+        background-color: #313130;
+        border: 1px solid #e0e1e3;
+        color: white;
+    }
+
+
+
+
+
+#ClickReport + ul, #ApuestaFinanciera ul {
+    /* padding: 5px; */
+}
+
+#gold {
+    display: none;
+}
+
+
+#GroupBtnLvl2 button:hover {
+    border-bottom: unset;
+}
+
+#SaldoRetirado {
+    background-image: url('../Asset/SaldoRetirado_Meridiano.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+button .Btn-Menu {
+    color: #535458;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+#btnInicioSsesion .lusbert-user {
+    color: white;
+}
+
+#Field_Perfil {
+    background-color: transparent;
+}
+
+    #Field_Perfil a {
+        background-color: transparent;
+    }
+
+        #Field_Perfil a:hover, #Field_Perfil a:focus {
+            color: #d9d9da;
+            background-color: #459f5f;
+        }
+
+    #Field_Perfil .lusbert-user, #Field_Perfil .lusbert-bell {
+        color: #535458;
+    }
+
+    #Field_Perfil .badge {
+        background-color: #f0d278;
+        color: #595a5c;
+    }
+
+#btnInicioSsesion .userNickName {
+    display: none;
+}
+
+#aviso {
+    display: none;
+}
+
+#btnInicioSsesion {
+    height: 58px;
+    background-image: unset;
+    background-color: transparent;
+}
+
+@media screen and (min-device-width: 1350px) and (max-device-width: 1450px) {
+    .navbar {
+        min-height: 40px;
+    }
+
+    .navbar-header {
+        height: 42px;
+    }
+
+    .navbar-brand {
+        background-image: url('../../../Asset/Empresas.Logo/logoSiete.png');
+        /*background-image: url('../Asset/GrupoPitazo24White_logo.png');*/
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 68%;
+        width: 100%;
+        height: 57px;
+    }
+
+
+    #bs-example-navbar-collapse-1 > ul > li > a {
+        padding-top: 0;
+    }
+
+    #GroupBtnLvl1 button {
+        height: 42px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    #btnInicioSsesion > a {
+        padding: 0;
+    }
+
+    #btnInicioSsesion {
+        padding: 11px;
+    }
+
+    #Field_Perfil a {
+        height: 43px;
+        line-height: 3.5;
+    }
+
+    #Field_Perfil .badge {
+        background-color: black;
+        margin-top: 1px;
+    }
+}
+
+
+.someSite {
+    display: none;
+}
+
+#Notification_usuario #contenidoModal.modal-body {
+    color: white;
+}
+
+#Field_Perfil .dropdown-menu {
+    border: none;
+    background-color: white;
+    background-image: unset;
+    color: white;
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 720px) {
+    #MenuRetiroYRecarga .dropdown-menu {
+        background: rgb(226,226,226);
+        background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+        background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+    }
+}
+
+.megamenu {
+    border-top: unset;
+}
+
+.modal-body {
+    background: #535458;
+}
+
+.modal-content {
+    background: #ffffff;
+}
+
+#Notification_usuario .modal-footer button {
+    color: #55b166;
+    background-color: #535458;
+}
+
+#BorrarMensaje {
+    width: 170px;
+    background-color: #f1e009 !important;
+    border: 1px solid #f1e009;
+    color: black !important;
+}
+
+
+
+
+
+#GroupBtnLvl1 ul > li > button, #configuracionOfline > .dropdown-menu > li > a {
+    color: black;
+}
+
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: black;
+    background-color: white;
+}
+
+ul.dropdown-menu {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+    ul.dropdown-menu, ul.dropdown-menu > li, ul.dropdown-menu > li > a {
+        color: black;
+    }
+
+#configuracionOfline > ul {
+    border-radius: 0;
+    background-color: white;
+    color: #2e3092;
+}
+
+
+
+#configuracionOfline > .dropdown-menu > li > a:hover {
+    color: black;
+    background-color: white;
+}
+
+button:active .Btn-Menu, button:focus .Btn-Menu {
+    color: red;
+    font-weight: bold;
+}
+
+
+#CasinoOFF > .dropdown-menu button, #CasinoOFF > .dropdown-menu button:hover {
+    color: black;
+    background-color: unset;
+    margin: 0;
+    /* padding: 0; */
+}
+
+#configuracionOfline .dropdown-submenu > .dropdown-menu > li > a {
+    color: black;
+}
+
+    #configuracionOfline .dropdown-submenu > .dropdown-menu > li > a:hover {
+        color: #f1e009;
+        background-color: #2e3092;
+    }
+
+    #GroupBtnLvl1 button:hover, #configuracionOfline .dropdown-submenu > .dropdown-menu > li > a:hover, #configuracionOfline > .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, button:active .Btn-Menu, button:focus .Btn-Menu {
+        background-color: rgb(237, 197, 76);
+        background-image: unset;
+        color: #535458;
+    }
+
+#GroupBtnLvl1 button.btn.btn-primary.lobby.btn-block:hover {
+    background-color: unset;
+}
+
+
+button:focus .Btn-Menu {
+    background-color: unset;
+    color: white;
+}
+
+#montoTranBlock {
+    color: black;
+}
+
+
+
+#GroupBtnLvl1 button:focus, #GroupBtnLvl1 button:active {
+    background-image: unset;
+    background-color: rgb(69, 159, 95);
+    color: white;
+}
+
+    #GroupBtnLvl1 button:focus span[class^='lusbert'], #GroupBtnLvl1 button:active span[class^='lusbert'] {
+        color: black;
+    }
+
+
+.dropdown-menu.megamenu.row.GroupBtnLvl1 {
+    background: rgb(226,226,226);
+    background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+    background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+}
+
+
+
+#myModal2 {
+    color: white;
+}
+
+
+#CasinoOFF > .dropdown-menu button:hover {
+    color: #545458;
+    background-color: #edc54c;
+}
+
+#LogoLoading.rk_intro div.logoImg {
+    background-image: url('../../../Asset/Empresas.Logo/logo.acierta.jpg');
+    background-size: contain;
+    background-position:  center;
+}
+
+#LogoLoading.rk_intro .bar {
+    background-color: #55b166;
+}
+
+@keyframes loadingJ {
+    0%,100% {
+        transform: translate(0,0);
+    }
+
+    50% {
+        transform: translate(180px,0);
+        background-color: #f0cf6d;
+        width: 15px;
+    }
+}
+
+#LogoLoading.rk_intro{
+    color:black;
+}
+
+.btn-lobby {
+    background-color: rgb(240, 209, 118);
+}
+
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: rgb(69, 159, 95);
+    border-color: rgb(69, 159, 95);
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: gray;
+    border-color: gray;
+}

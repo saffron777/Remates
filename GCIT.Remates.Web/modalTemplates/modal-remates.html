@@ -1,0 +1,35 @@
+<div tabindex="-1" class="modal fade" id="Remates" role="dialog" aria-labelledby="Remates">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h4 class="modal-title text-center">Remates, Tablas y Puestos</h4>
+                <div class="arrow-down"></div>
+            </div>
+            <div class="modal-body center-block">
+                <div class="alert alert-danger" id="alertaLogin" style="display: none;"></div>
+                <div class="form-group">
+                    <label class="rk-title-modal" for="exampleInputEmail1">Saldo Actual: <span class="rmates-value">000000000,00</span></label>
+                    <div class="boxInputRadio">
+                        <div class="radio">
+						  <label>
+						    <input type="radio" name="tdc-remates" id="tdc-remates" value="Transferir Disponible Completo" checked>
+							Transferir Disponible Completo
+						  </label>
+						</div>
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="tsp-remates" id="tsp-remates" value="Transferir Saldo Parcial">
+						    Transferir Saldo Parcial
+						  </label>
+						</div>
+                    </div>
+                    <input type="text" name="monto-remates" id="monto-remates" class="form-control" value="0,00" required="required">
+                </div>
+                <div class="flex-btn-center">
+                	<button id="cancelar-remates" class="btn btn-danger btn-remates" type="button"> Iniciar </button>
+                    <button id="aceptar-remates" class="btn btn-success btn-remates" type="button"> Salir </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

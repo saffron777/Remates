@@ -1,0 +1,1068 @@
+.navbar-header {
+    margin-right: 33px !important;
+}
+.navbar-brand {
+    background-image: url('../../../Asset/Empresas.Logo/logosGc.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+.configuracion > .dropdown-menu {
+    background-color: black;
+}
+    .configuracion > .dropdown-menu a {
+        color: white;
+    }
+
+    .navbar-brand{
+         background-position: 20px 4px;
+         height: 60px;
+    }
+
+    #Reportes{
+        /* margin: 0 -3px; */
+    }
+
+    .dropdown-menu button {
+        background-color:transparent;
+        background-image:unset;
+        color:white;
+        border:none;
+        width:100%;
+        text-align: left;
+    }
+
+    .navbar-header{
+       margin-right: 18px;
+    }
+
+    .navbar-inverse {
+    background-color:#1c1e22;
+    border-color: #1c1e22;
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+}
+#Reportes > .dropdown-menu {
+    background-color: black;
+}
+
+
+ .dropdown-menu {
+    background-color: black;
+    background-image: unset;
+   
+}
+ .dropdown-menu > li > button {
+    background-color: transparent;
+    background-image: unset;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+
+#BilleteraDos .list-group-item, 
+#BilleteraDos input,
+#BilleteraDos button{
+    border-radius:0;
+}
+
+#BilleteraDos .modal-header{
+   border-bottom: 3px solid #ebc43c;
+}
+#BilleteraDos .modal-header,#BilleteraDos .modal-footer {
+    background-color:#363636;
+}
+#BilleteraDos .modal-body{
+    background-color:black;
+}
+#BilleteraDos .modal-footer{
+    border-top: 1px solid #ebc43c;
+}
+
+#MontoModal{
+    margin-bottom:15px;
+    background-color:whitesmoke;
+}
+#BilleteraDos .list-group-item{
+    background-color:silver;
+}
+#BilleteraDos .btn.btn-primary 
+{
+    background-color: #e9bd25;
+    border-color: #ddb117;
+    color:black;
+    font-weight:bold;
+}
+#BilleteraDos .close{
+    font-size:40px;
+    opacity:1;
+    color:white;
+    text-shadow:none;
+}
+
+
+.sender {
+  width: 100px;
+  height: 25px;
+  margin: 20px 600px;
+  border-radius: 5px;
+}
+
+.sender:hover {
+  box-shadow: 0px 0px 20px 1px limegreen;
+  background: -moz-linear-gradient(top, #ff017f 0%, #ff2628 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff017f), color-stop(100%, #ff2628));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ff017f 0%, #ff2628 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ff017f 0%, #ff2628 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ff017f 0%, #ff2628 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ff017f 0%, #ff2628 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff017f', endColorstr='#ff2628',GradientType=0 );
+  /* IE6-9 */
+}
+
+.gcCoin-move {
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  margin-top: -80px;
+  margin-left: -80px;
+  -webkit-perspective: 1000;
+  -webkit-box-reflect: below 0 linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.2));
+  -webkit-filter: saturate(1.45) hue-rotate(2deg);
+}
+
+.gcCoin {
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -80px;
+  -webkit-perspective: 1000;
+  -webkit-box-reflect: below 0 linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.2));
+  -webkit-filter: saturate(1.45) hue-rotate(2deg);
+}
+
+.coin {
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 50%;
+  -webkit-animation: spin 1.3s infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.coin .front,
+.coin .back {
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.coin .front {
+  -webkit-transform: translateZ(8px);
+}
+
+.coin .back {
+  -webkit-transform: translateZ(-8px) rotateY(180deg);
+}
+
+.coin .side {
+  -webkit-transform: translateX(72px);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+}
+
+.coin .side .circle {
+  height: 160px;
+  width: 16px;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+}
+
+.coin .side .circle:before,
+.coin .side .circle:after {
+  content: '';
+  display: block;
+  height: 15.682742452729697px;
+  width: 16px;
+  position: absolute;
+  -webkit-transform: rotateX(84.375deg);
+  background: #d8be83;
+  background: linear-gradient(to bottom, #e6cf99 0%, #e6cf99 74%, #c2a970 75%, #c2a970 100%);
+  background-size: 100% 3.485053878384377px;
+}
+
+.coin .side .circle:before {
+  -webkit-transform-origin: top center;
+}
+
+.coin .side .circle:after {
+  bottom: 0;
+  -webkit-transform-origin: center bottom;
+}
+
+.coin .side .circle:nth-child(16) {
+  -webkit-transform: rotateY(90deg) rotateX(180deg);
+}
+
+.coin .side .circle:nth-child(15) {
+  -webkit-transform: rotateY(90deg) rotateX(168.75deg);
+}
+
+.coin .side .circle:nth-child(14) {
+  -webkit-transform: rotateY(90deg) rotateX(157.5deg);
+}
+
+.coin .side .circle:nth-child(13) {
+  -webkit-transform: rotateY(90deg) rotateX(146.25deg);
+}
+
+.coin .side .circle:nth-child(12) {
+  -webkit-transform: rotateY(90deg) rotateX(135deg);
+}
+
+.coin .side .circle:nth-child(11) {
+  -webkit-transform: rotateY(90deg) rotateX(123.75deg);
+}
+
+.coin .side .circle:nth-child(10) {
+  -webkit-transform: rotateY(90deg) rotateX(112.5deg);
+}
+
+.coin .side .circle:nth-child(9) {
+  -webkit-transform: rotateY(90deg) rotateX(101.25deg);
+}
+
+.coin .side .circle:nth-child(8) {
+  -webkit-transform: rotateY(90deg) rotateX(90deg);
+}
+
+.coin .side .circle:nth-child(7) {
+  -webkit-transform: rotateY(90deg) rotateX(78.75deg);
+}
+
+.coin .side .circle:nth-child(6) {
+  -webkit-transform: rotateY(90deg) rotateX(67.5deg);
+}
+
+.coin .side .circle:nth-child(5) {
+  -webkit-transform: rotateY(90deg) rotateX(56.25deg);
+}
+
+.coin .side .circle:nth-child(4) {
+  -webkit-transform: rotateY(90deg) rotateX(45deg);
+}
+
+.coin .side .circle:nth-child(3) {
+  -webkit-transform: rotateY(90deg) rotateX(33.75deg);
+}
+
+.coin .side .circle:nth-child(2) {
+  -webkit-transform: rotateY(90deg) rotateX(22.5deg);
+}
+
+.coin .side .circle:nth-child(1) {
+  -webkit-transform: rotateY(90deg) rotateX(11.25deg);
+}
+
+.coin.skeleton .front,
+.coin.skeleton .back {
+  display: none;
+}
+
+.coin.skeleton .side,
+.coin.skeleton .side .circle,
+.coin.skeleton .side .circle:before,
+.coin.skeleton .side .circle:after {
+  -webkit-backface-visibility: visible;
+}
+
+.coin.skeleton .side .circle {
+  background: rgba(170, 170, 170, 0.1);
+}
+
+.coin.skeleton .side .circle:before {
+  background: rgba(255, 170, 170, 0.2);
+}
+
+.coin.skeleton .side .circle:after {
+  background: rgba(204, 204, 255, 0.2);
+}
+
+body {
+  background-color:#1c1e22;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+.coin .front {
+    background-image: url('../../../Asset/Empresas.Logo/LOGOblack2.jpg');
+}
+
+.coin .back {
+    background-image: url('../../../Asset/Empresas.Logo/LOGOblack2.jpg');
+}
+
+.container input {
+  display: none;
+}
+
+.container label {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  background: transparent;
+}
+
+i {
+  /*   positioning */
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  /*   gradient   */
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(1%, rgba(255, 255, 255, 0.03)), color-stop(30%, rgba(255, 255, 255, 0.85)), color-stop(50%, rgba(255, 255, 255, 0.85)), color-stop(70%, rgba(255, 255, 255, 0.85)), color-stop(71%, rgba(255, 255, 255, 0.85)), color-stop(100%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+  /* IE6-9 */
+  /*  forming the shine element
+      play around with the width, skew and gradient to get different effects
+    */
+  width: 15%;
+  height: 100%;
+  transform: skew(-10deg, 0deg);
+  -webkit-transform: skew(-10deg, 0deg);
+  -moz-transform: skew(-10deg, 0deg);
+  -ms-transform: skew(-10deg, 0deg);
+  -o-transform: skew(-10deg, 0deg);
+  /*  animating it  */
+  animation: move 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  -webkit-animation: move 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+  -moz-transform: skew(-10deg, 0deg);
+  -moz-animation: move 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 1s;
+  -ms-transform: skew(-10deg, 0deg);
+  -ms-animation: move 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-delay: 1s;
+  -o-transform: skew(-10deg, 0deg);
+  -o-animation: move 2s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-delay: 1s;
+}
+
+/*  */
+@keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.0;
+  }
+  48% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.0;
+  }
+  100% {
+    left: 82%;
+  }
+}
+@-webkit-keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.0;
+  }
+  48% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.0;
+  }
+  100% {
+    left: 82%;
+  }
+}
+@-moz-keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.0;
+  }
+  48% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.0;
+  }
+  100% {
+    left: 88%;
+  }
+}
+@-ms-keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.0;
+  }
+  48% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.0;
+  }
+  100% {
+    left: 82%;
+  }
+}
+@-o-keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.0;
+  }
+  48% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.0;
+  }
+  100% {
+    left: 82%;
+  }
+}
+.modal-header,.modal-title {
+    background: #DCBB31;
+    color:black;
+}
+#LoginAceptar, #deposito,#depositoCasino{
+    background-color:gray;
+    border:1px solid gray;
+    color:gold;
+}
+#LoginAceptar:hover, #deposito:hover,#depositoCasino:hover {
+    background-color:black;    
+    border:none;
+}
+#btLCancelar, #transferencia, #transferenciaCasino{
+    background-color:gray;
+    border:1px solid gray;
+    color:gold;
+}
+#btLCancelar:hover, #transferencia:hover, #transferenciaCasino:hover {
+    background-color:black;    
+    border:none;
+}
+
+.modal-body{
+    background-color:#3a3a3a;
+}
+
+.modal-body>.list-group>.list-group-item{
+    background-color: #d8d9d9;
+    border: 1px solid #3a3a3a;
+    color:black;
+}
+#montoTranBlock label{
+    color:gold;
+}
+#SaldoRetirado {
+    background-image: url('../Asset/SaldoRetiradoCordialito.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#meridianoLogoLoading{
+    display:none;
+}
+
+.text_User{
+    display:none;
+}
+#btnInicioSsesion .lusbert-user{
+    color: black;
+}
+#Field_Perfil{
+    background-color:transparent;
+}
+#Field_Perfil a{
+    color:silver;
+    background-color:transparent;
+}
+#Field_Perfil a:hover,#Field_Perfil a:focus{
+    color: silver;
+    background-color: unset;
+}
+#Field_Perfil .lusbert-user, #Field_Perfil .lusbert-bell{
+    color:white;
+}
+#Field_Perfil .badge{
+    background-color:#dbba30;
+}
+.modal-footer > .form-inline.text-center.boxTextInput{
+    color:white;
+}
+.modal-footer > .form-inline.text-center.boxTextInput input.form-control.center-block {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+.modal-footer  .btn.btn-primary{
+    background-color: gray;
+    border: 1px solid gray;
+    color: gold;
+    border-radius:0;
+}
+.modal-footer  .btn.btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+
+#Field_Perfil .dropdown-menu{
+    padding: 5px 20px 0 0;
+    left: -43px;
+}
+
+@media screen and (min-device-width: 1350px) and (max-device-width: 1450px) {
+    .navbar{
+        min-height:40px;
+    }
+    .navbar-header {
+        height: 42px;
+    }
+    .navbar-brand {
+        background-position:center;      
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width: 100%;
+        height: 42px;
+    }
+
+
+    #bs-example-navbar-collapse-1 > ul > li > a {
+        padding-top: 0;
+    } 
+    #GroupBtnLvl1 button {
+        height: 42px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    #btnInicioSsesion > a{
+        padding:0;
+    }
+    #btnInicioSsesion{
+       padding: 11px;
+    }
+    #Field_Perfil a {
+        height: 43px;
+       line-height: 3.5;
+    }       
+    #Field_Perfil .badge {
+        background-color: black;
+        margin-top: 1px;
+    }
+}
+
+#Notification_usuario #contenidoModal.modal-body{
+    color:white;
+}
+
+#Notification_usuario .modal-footer button{
+    background-color: grey;
+    color: gold;
+    border-radius:0;
+}
+
+
+body {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    overflow-y: hidden;
+}
+
+.btn-ayuda {
+    padding: 5px 1px;
+}
+
+
+.navbar-header {
+    width: 200px;
+    height: 50px;
+}
+
+.navbar-inverse {
+    font-size: 13px;
+}
+
+div#bs-example-navbar-collapse-1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.dropdown-header.text-center {
+    border-right: none !important;
+}
+
+.centrarMenu, .nav > li > a:hover {
+    background-image: unset;
+}
+
+/*.pddgMenu1,*/ #btnInicioSsesion /*, .pddgMenu1:hover*/ {
+    background-image: -webkit-linear-gradient(#8a9196, #7a8288 60%, #70787d);
+    background-image: -o-linear-gradient(#8a9196, #7a8288 60%, #70787d);
+    background-image: linear-gradient(#8a9196, #7a8288 60%, #70787d);
+}
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+    .dropdown-submenu > .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        -webkit-border-radius: 0 6px 6px 6px;
+        -moz-border-radius: 0 6px 6px;
+        border-radius: 0 6px 6px 6px;
+    }
+
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-submenu > a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #ccc;
+        margin-top: 5px;
+        margin-right: -10px;
+    }
+
+    .dropdown-submenu:hover > a:after {
+        border-left-color: #fff;
+    }
+
+    .dropdown-submenu.pull-left {
+        float: none;
+    }
+
+        .dropdown-submenu.pull-left > .dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+
+.Definir, .navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0;
+}
+
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > button:hover, .dropdown-menu button:hover {
+    color: #262626;
+    background-color: #DCBB31;
+    background-image: unset;
+}
+
+#btnInicioSsesion {
+    background-color: #DCBB31;
+    border-color: #153355 #153355 hsl(212, 59%, 17.5%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+    -webkit-font-smoothing: antialiased;
+    height: 42px;
+}
+
+
+
+.menu-large h5 {
+    font-weight: bold;
+}
+
+.menu-large .icon {
+    font-size: 33px;
+}
+
+#GroupBtnLvl2 [class^="lusbert-"] {
+    font-size: 33px;
+}
+/*.menu-large .icon:hover{
+    color:goldenrod;    
+}*/
+.btn-lobby {
+    width: 105px;
+    /*border: 1px red solid;*/
+    border-radius: 100px;
+    padding: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0,0,0,0.4)
+}
+
+    .btn-lobby:hover {
+        background-color: rgba(115, 115, 115, 0.4);
+        color: goldenrod;
+    }
+
+li[class^="pddgMen"] {
+    border-right: none;
+}
+
+.navbar.navbar-inverse {
+    border-radius: 0;
+}
+
+.nav.navbar-nav .btn-default {
+    /* background-color: transparent; */
+    /* border: 1px solid #454545; */
+    /* border-top: none; */
+    /* border-bottom: none; */
+    /* color: white; */
+}
+
+@media only screen and (min-device-width: 720px) {
+    #MenuRetiroYRecarga .dropdown-menu {
+        right: 0;
+        border-radius: 0;
+        background: rgb(125,126,125);
+        background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+        background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+    }
+}
+
+nav button {
+    background: #45484d;
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+    /* height: 58px; */
+    /* padding-left: 0; */
+    /* padding-right: 0; */
+    color: #DCBB31;
+    /* margin: 0; */
+    /* padding: 0; */
+    border-radius: 0;
+}
+
+
+    nav button:hover {
+        background-color: black;
+        background-image: unset;
+        color: white;
+    }
+
+    #GroupBtnLvl1 button.btn-primary:focus,
+    #GroupBtnLvl1 button.btn-primary:active {
+        background-color: #DCBB31;
+        background-image: unset;
+        border-bottom: none;
+        color: white;
+    }
+
+#GroupBtnLvl2 button {
+    background-color: transparent;
+    background-image: unset;
+    border: none;
+    height: auto;
+}
+
+    #GroupBtnLvl2 button:hover {
+        background-color: transparent;
+        background-image: unset;
+    }
+
+    #GroupBtnLvl2 button:focus,
+    #GroupBtnLvl2 button:active {
+        background-color: transparent;
+        background-image: unset;
+        border-bottom: none;
+    }
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.Btn-Menu {
+    padding: 0 10px;
+}
+
+.btn-lobby {
+    color: silver;
+    text-align: center;
+}
+
+    .btn-lobby:hover {
+        color: white;
+        background-color: black;
+    }
+
+#configuracionOfline > ul {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+#configuracionOfline > .dropdown-menu > li > a {
+    color: white;
+}
+
+#configuracionOfline .dropdown-submenu > .dropdown-menu > li > a {
+    color: white;
+}
+
+
+#offlineLevelOne > ul {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+#offlineLevelOne > .dropdown-menu > li > a {
+    color: white;
+}
+
+#offlineLevelOne .dropdown-submenu > .dropdown-menu > li > a {
+    color: white;
+}
+
+button .Btn-Menu {
+    color: white;
+}
+
+
+
+ul.dropdown-menu {
+    background-color: black;
+    background-image: unset;
+}
+
+
+
+    .dropdown-menu > li > button {
+        background-color: transparent;
+        background-image: unset;
+        color: white;
+        border: none;
+        width: 100%;
+        text-align: left;
+    }
+
+.dropdown-menu button {
+    background-color: transparent;
+    background-image: unset;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        margin-left: 0;
+        background: #45484d;
+        background: -moz-linear-gradient(top,#45484d 0%,#000000 100%);
+        background: -webkit-linear-gradient(top,#45484d 0%,#000000 100%);
+        background: linear-gradient(to bottom,#45484d 0%,#000000 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d',endColorstr='#000000',GradientType=0 );
+    }
+}
+
+#GroupBtnLvl2 button {
+    height: 112px !important;
+}
+
+.Btn-Menu {
+    padding: 0 6px;
+}
+
+
+@media screen and (min-device-width: 1438px) and (max-device-width: 1550px) {
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: -129%;
+        margin-top: -6px;
+        margin-left: -1px;
+        -webkit-border-radius: 0 6px 6px 6px;
+        -moz-border-radius: 0 6px 6px;
+        border-radius: 0 6px 6px 6px;
+    }
+
+    .dropdown-submenu > a:after {
+        display: block;
+        content: " ";
+        float: left;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 5px 5px 0;
+        border-left-color: transparent;
+        border-right-color: #ccc;
+        margin-top: 5px;
+        margin-right: 11px;
+    }
+}
+
+
+
+.text_User {
+    display: none;
+}
+
+
+
+.modal-body.center-block{
+    color:white;
+}
+.nav.navbar-nav button {
+    border-radius: 0;
+    margin: 0;
+    /* margin: 0 -3px; */
+}
+
+.nav.navbar-nav button button{
+  margin:0!important;
+}
+
+
+.btn-primary, .btn-default, .nav.navbar-nav .btn-default {
+    color: #dcbb31;
+    background-color: #1c1e22;
+    border-color: transparent;
+    background: #45484d;
+    background: -moz-linear-gradient(top,#45484d 0%,#000000 100%);
+    background: -webkit-linear-gradient(top,#45484d 0%,#000000 100%);
+    background: linear-gradient(to bottom,#45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d',endColorstr='#000000',GradientType=0 );
+    border: unset;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #1c1e22;
+    border-color: #1c1e22;
+}
+    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+        color: #fff;
+        background-color: goldenrod;
+        border-color: #122b40;
+    }
+
+
+    .btn-primary:hover, .btn-default:hover, .nav.navbar-nav .btn-default:hover {
+        color: #fff;
+        background-color: black;
+        border-color: black;
+        background-image: unset;
+    }
+
+
+li.col-sm-4 button:hover {
+    background-color:unset;
+}
+
+
+#LoginAceptar, #deposito, #btLCancelar, #transferencia, #transferenciaCasino, #depositoCasino {
+    border-radius: 0;
+    background-image: unset;
+}
+
+.list-group-item {
+    background-color: #d8d9d9;
+}
+
+.btn-remates:first-child {
+    background-color:gray;
+    border-color:gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:last-child {
+    background-color: rgb(35, 52, 123);
+    border-color: rgb(35, 52, 123);
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: rgb(31, 80, 150);
+    border-color: rgb(31, 80, 150);
+}

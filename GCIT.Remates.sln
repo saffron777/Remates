@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Core", "01-Core", "{B9545A4A-FBEC-4376-9E36-4342F646686E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Services", "02-Services", "{B7660B45-F074-4402-BF6B-5D6BD4A88CF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-UI", "03-UI", "{1C3E74B9-ADBA-416A-9227-7E694E245C26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCIT.Core", "GCIT.Core\GCIT.Core.csproj", "{073CC52C-3E34-454E-8422-CBF2B485231F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCIT.Remates.WebApi", "GCIT.Remates.WebApi\GCIT.Remates.WebApi.csproj", "{DD1C9B31-8A21-4E5E-8D69-A8F5EF920DF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCIT.Remates.Web", "GCIT.Remates.Web\GCIT.Remates.Web.csproj", "{177AB6B1-7C40-4543-B1AC-FCCBBC80D5E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073CC52C-3E34-454E-8422-CBF2B485231F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073CC52C-3E34-454E-8422-CBF2B485231F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073CC52C-3E34-454E-8422-CBF2B485231F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073CC52C-3E34-454E-8422-CBF2B485231F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1C9B31-8A21-4E5E-8D69-A8F5EF920DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1C9B31-8A21-4E5E-8D69-A8F5EF920DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1C9B31-8A21-4E5E-8D69-A8F5EF920DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1C9B31-8A21-4E5E-8D69-A8F5EF920DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177AB6B1-7C40-4543-B1AC-FCCBBC80D5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177AB6B1-7C40-4543-B1AC-FCCBBC80D5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177AB6B1-7C40-4543-B1AC-FCCBBC80D5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177AB6B1-7C40-4543-B1AC-FCCBBC80D5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{073CC52C-3E34-454E-8422-CBF2B485231F} = {B9545A4A-FBEC-4376-9E36-4342F646686E}
+		{DD1C9B31-8A21-4E5E-8D69-A8F5EF920DF6} = {B7660B45-F074-4402-BF6B-5D6BD4A88CF6}
+		{177AB6B1-7C40-4543-B1AC-FCCBBC80D5E0} = {1C3E74B9-ADBA-416A-9227-7E694E245C26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45FADA8C-8D26-430C-B017-3F4B081A8C8E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://fmiranda.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GCIT.Core\\GCIT.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = GCIT.Remates.sln
+		SccProjectName1 = GCIT.Core
+		SccLocalPath1 = GCIT.Core
+		SccProjectUniqueName2 = GCIT.Remates.Web\\GCIT.Remates.Web.csproj
+		SccProjectTopLevelParentUniqueName2 = GCIT.Remates.sln
+		SccProjectName2 = GCIT.Remates.Web
+		SccLocalPath2 = GCIT.Remates.Web
+		SccProjectUniqueName3 = GCIT.Remates.WebApi\\GCIT.Remates.WebApi.csproj
+		SccProjectTopLevelParentUniqueName3 = GCIT.Remates.sln
+		SccProjectName3 = GCIT.Remates.WebApi
+		SccLocalPath3 = GCIT.Remates.WebApi
+	EndGlobalSection
+EndGlobal

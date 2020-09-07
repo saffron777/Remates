@@ -1,0 +1,477 @@
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url("../../../font/meridiano/RobotoCondensed-Regular.eot"); /* IE9 Compat Modes */
+    src: url("../../../font/meridiano/RobotoCondensed-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../../font/meridiano/RobotoCondensed-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../../../font/meridiano/RobotoCondensed-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../../../font/meridiano/RobotoCondensed-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../../../font/meridiano/RobotoCondensed-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../../../font/meridiano/RobotoCondensed-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, span, div, nav {
+    font-family: 'RobotoCondensed-Regular';
+}
+
+body {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    background-color: black;
+    overflow-y: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-inverse {
+    background-color: #003333;
+    border-color: unset;
+    border-top: none;
+    border-bottom: none;
+}
+
+.navbar-brand {
+    background-image: url('../../../Asset/Empresas.Logo/logoInmejorable.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 196px;
+    background-position: 5px 2px;
+    height: 58px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        color: white;
+        border-bottom: 2px solid #003333;
+        background-color:  #ff6600;
+    }
+
+div#bs-example-navbar-collapse-1 li > .dropdown-menu {
+    border: none;
+    background-image: unset;
+    background-color: #003333;
+    color: white;
+}
+
+.btn-lobby {
+    color: white;
+}
+
+    .btn-lobby:hover {
+        color: white;
+        background-color: #f2702a9e;
+    }
+
+button:hover {
+   color: white;
+   background-color: #ff6600;
+}
+
+button {
+    background: transparent;
+    background: unset;
+    border: none;
+    color: white;
+}
+
+button .Btn-Menu {
+    color: white;
+    font-weight: bold;
+}
+
+#btnInicioSsesion {
+    padding: 2px 23px;
+}
+
+.btn-lobby > h5 {
+    color: white;
+}
+
+.btn-lobby:hover > h5 {
+    color: white !important;
+}
+
+#GroupBtnLvl1 button:focus, #GroupBtnLvl1 button:active {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+    /* background: rgb(226,226,226); */
+     /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); 
+    /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); */ 
+    /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); */ 
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+    border-bottom: none;
+    background-color: #FF6600;
+    color: white;
+}
+
+#btnInicioSsesion > a > span {
+    color: white;
+}
+
+.modal-header, .modal-title {
+    /* background: white; */
+    /* color: #2e3092; */
+    color: white;
+    background-color: #ff6600;
+}
+
+#LoginAceptar, #deposito, #depositoCasino {
+    background-color: #003333;
+    border: 1px solid #003333;
+    border-radius: 0;
+    color: white;
+}
+
+    #LoginAceptar:hover, #deposito:hover {
+        background-color: #ff6600;
+        border: 1px solid white;
+    }
+
+#btLCancelar, #transferencia, #transferenciaCasino {
+    background-color: gray;
+    border: none;
+    border-radius: 0;
+}
+
+    #btLCancelar:hover, #transferencia:hover, #depositoCasino:hover, #transferenciaCasino:hover {
+        background-color: black;
+        border: none;
+    }
+
+#Billetera .modal-body, #BilleteraCasinoModal .modal-body {
+    background-color: #e0e1e3;
+}
+
+    #Billetera .modal-body > .list-group > .list-group-item,#BilleteraCasinoModal .modal-body .list-group > .list-group-item {
+        background-color: #003333;
+        border: 1px solid #e0e1e3;
+        color: white;
+    }
+
+
+#GroupBtnLvl1 ul > li > button {
+    /* color: #2e3092; */
+    color: white;
+    background-color: #003333;
+    margin: 0;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+        color: white;
+        background-color: #ff6600;
+}
+
+#ClickReport + ul, #ApuestaFinanciera ul {
+    /* padding: 5px; */
+    background-color: #003333;
+    padding: 0;
+}
+
+#gold {
+    display: none;
+}
+
+
+#GroupBtnLvl2 button:hover {
+    border-bottom: unset;
+}
+
+#SaldoRetirado {
+    background-image: url('../Asset/SaldoRetirado_Meridiano.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+ul.dropdown-menu {
+    background-color: #003333;
+    color: white;
+    padding: 0;
+    border-radius: 0;
+}
+
+    ul.dropdown-menu > li {
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+        ul.dropdown-menu > li > a {
+            color: white;
+        }
+
+
+button .Btn-Menu {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:active .Btn-Menu, button:focus .Btn-Menu {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+#btnInicioSsesion .lusbert-user {
+    color: white;
+}
+
+#Field_Perfil {
+    background-color: transparent;
+}
+
+    #Field_Perfil a {
+        background-color: transparent;
+    }
+
+        #Field_Perfil a:hover, #Field_Perfil a:focus {
+            color: white;
+            background-color: #ff6600;
+        }
+
+    #Field_Perfil .lusbert-user, #Field_Perfil .lusbert-bell {
+        color: white;
+    }
+
+    #Field_Perfil .badge {
+        background-color: white;
+        color:black;
+    }
+
+#btnInicioSsesion .userNickName {
+    display: none;
+}
+
+#aviso {
+    display: none;
+}
+
+#btnInicioSsesion {
+    height: 58px;
+    background-image: unset;
+    background-color: transparent;
+}
+
+@media screen and (min-device-width: 1350px) and (max-device-width: 1450px) {
+    .navbar {
+        min-height: 40px;
+    }
+
+    .navbar-header {
+        height: 42px;
+    }
+
+    .navbar-brand {
+        background-image: url('../../../Asset/logoInmejorable.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width: 100%;
+        height: 42px;
+    }
+
+
+    #bs-example-navbar-collapse-1 > ul > li > a {
+        padding-top: 0;
+    }
+
+    #GroupBtnLvl1 button {
+        height: 42px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    #btnInicioSsesion > a {
+        padding: 0;
+    }
+
+    #btnInicioSsesion {
+        padding: 11px;
+    }
+
+    #Field_Perfil a {
+        height: 43px;
+        line-height: 3.5;
+    }
+
+    #Field_Perfil .badge {
+        background-color: black;
+        margin-top: 1px;
+    }
+}
+
+
+.someSite {
+    display: none;
+}
+
+#Notification_usuario #contenidoModal.modal-body {
+    color: #001919;
+}
+
+#Field_Perfil .dropdown-menu {
+    border: none;
+    background-color: #003333;
+    background-image: unset;
+    color: white;
+}
+
+
+#configuracionOfline > ul {
+    border-radius: 0;
+    background-color: #003333;
+    color: white;
+}
+#configuracionOfline >.dropdown-menu>li>a {
+    color: white;
+}
+#configuracionOfline >.dropdown-menu>li>a:hover {
+    color: white;
+    background-color: #ff6600;
+}
+#CasinoOFF > .dropdown-menu button {
+    color: white;
+    background-color: #003333;
+    margin: 0;
+}
+#CasinoOFF > .dropdown-menu button:hover {
+    color: white;
+    background-color: #ff6600;
+}
+#configuracionOfline .dropdown-submenu >.dropdown-menu > li > a {
+    color: white;
+}
+#configuracionOfline .dropdown-submenu >.dropdown-menu > li > a:hover{
+    color: white;
+    background-color: #ff6600;
+}
+
+
+@media only screen and (min-device-width: 720px)  {
+    #MenuRetiroYRecarga .dropdown-menu{
+        /* background: rgb(226,226,226); */
+        background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+        /* background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); */
+        /* background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+        background-color: #003333;
+        background-image:  unset;
+    }
+}
+.megamenu {
+    border-top: unset;
+}
+.modal-body {
+    background: white;
+}
+.modal-content {
+    background: #ffffff;    
+}
+#Notification_usuario .modal-footer button {
+   color: #ffffff;
+   background-color: #003333;
+}
+#BorrarMensaje {
+    width: 170px;
+    background-color: #f1e009 !important;
+    border: 1px solid #f1e009;
+    color: black !important;
+}
+
+
+#montoTranBlock {
+    text-align: center;
+    color: #003333;
+}
+#grupoPitazo24LogoLoading{
+    display:none;
+}
+
+
+.sweet-alert.showSweetAlert{
+    color: white;
+    background-color: #003333;
+}
+
+.sweet-alert h2 {
+    color: white;
+}
+.sweet-alert .sa-icon.sa-warning {
+    border-color: #101010;
+}
+    .sweet-alert .sa-icon.sa-warning .sa-body {
+        background-color: #003333;
+    }
+    .sweet-alert .sa-icon.sa-warning .sa-dot {
+        background-color: #193a37;
+    }
+
+.sweet-alert p {
+    color: #dfdbdb;
+}
+
+.sweet-alert button.cancel {
+    background-color: #003333;
+    border-color:  white;
+    border: 1px solid white;
+}
+
+    .sweet-alert button.cancel:hover {
+        background-color: #FF6600;
+    }
+li.col-sm-4 button:hover {
+    background-color: unset;
+}
+
+
+#LogoLoading.rk_intro div.logoImg {
+    background-image: url('../../../Asset/Empresas.Logo/logoInmejorable.png');
+}
+#LogoLoading.rk_intro .bar {
+    background-color: #014b4b;
+}
+
+@keyframes loadingJ {
+    0%,100% {
+        transform: translate(0,0);
+    }
+
+    50% {
+        transform: translate(180px,0);
+        background-color: #ec6d29;
+        width: 15px;
+    }
+}
+
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: rgb(69, 159, 95);
+    border-color: #003333;
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}

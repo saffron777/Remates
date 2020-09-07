@@ -1,0 +1,228 @@
+body {
+    background-color: black;
+}
+
+.navbar-inverse {
+    background-color: black;
+    border-color: black;
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+}
+
+.navbar-header {
+    width: 193px;
+}
+
+.navbar-brand {
+    width: 100%;
+    background-image: url('../../../Asset/Empresas.Logo/logoChampionSport.png');
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: center;
+}
+
+button {
+    color: white;
+    background-color: #222325;
+}
+
+#GroupBtnLvl2 .icon {
+    color: red;
+}
+
+#GroupBtnLvl1 button:focus, #GroupBtnLvl1 button:active {
+    background-color: red;
+    background-image: unset;
+    border-bottom: none;
+    color: white;
+}
+
+#btnInicioSsesion {
+    background-color: red;
+    color: white;
+    background-image: unset;
+}
+
+    #btnInicioSsesion .icon.icon-user2 {
+        color: white
+    }
+
+button > span, button > span:first-child {
+    color: white;
+}
+
+button:hover > span:first-child, button:hover > span:first-child, button:focus > span:first-child {
+    color: #e31e24;
+}
+
+.megamenu {
+    border-top: 4px solid red;
+}
+
+ul.dropdown-menu {
+    background-color:black;
+    color: white;
+}
+
+.modal-header {
+    background: #CA2736;
+    color: white;
+}
+
+.modal-content {
+    background: #e0e1e3;
+}
+
+.modal-body {
+    border-radius: 0;
+}
+
+#btLCancelar {
+    background-color: gray;
+    border-color: gray;
+}
+
+    #btLCancelar:hover {
+        background-color: black;
+        border-color: black;
+    }
+
+#LoginAceptar {
+    background-color: black;
+    border-color: black;
+}
+
+    #LoginAceptar:hover {
+        background-color: gray;
+        border-color: gray;
+    }
+
+#gold {
+    display: none;
+}
+
+
+#SaldoRetirado {
+    background-image: url('../Asset/SaldoRetirado_ChampionsSportBet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#meridianoLogoLoading {
+    display: none;
+}
+
+.someSite {
+    display: none;
+}
+
+.modal-body.center-block {
+    color: white;
+}
+
+.dropdown-menu button span {
+    color: white;
+}
+
+.dropdown-menu button:hover {
+    background-color: black;
+    color: white;
+}
+
+    .dropdown-menu button:hover span {
+        color: white;
+    }
+
+button:hover {
+    background-color: #b02525;
+    background-image: unset;
+    color: white;
+}
+
+button {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dropdown-menu > li > a {
+    background-color: black;
+    color: white;
+}
+
+    .dropdown-menu > li > a:hover {
+        background-color: red;
+        color: white;
+    }
+
+
+
+#Field_Perfil a:hover, #Field_Perfil a:focus {
+    color: white;
+    background-color: red;
+}
+
+.modal-body{
+    color:white;
+}
+.modal-footer button{
+    background-color:black;
+    color:white;
+}
+
+.modal-footer button:hover {
+    background-color: red;
+    color: white;
+}
+
+.close {
+    text-shadow: unset;
+    opacity:1;
+}
+.modal-body .list-group-item{
+    background-color:black;
+    border:none;
+    border-top:1px solid red;
+}
+
+li.col-sm-4 button:hover {
+    background-color: unset;
+}
+
+#LogoLoading.rk_intro div.logoImg {
+    background-image: url('../../../Asset/Empresas.Logo/logoChampionSport.png');
+}
+
+#LogoLoading.rk_intro .bar {
+    background-color: #e31e24;
+}
+
+@keyframes loadingJ {
+    0%,100% {
+        transform: translate(0,0);
+    }
+
+    50% {
+        transform: translate(180px,0);
+        background-color: #f4f4f4;
+        width: 15px;
+    }
+}
+
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child:hover {
+    background-color: gray;
+    border-color: gray;
+}

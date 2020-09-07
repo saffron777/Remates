@@ -1,0 +1,443 @@
+@font-face {
+    font-family: antennacond;
+    src: url(../../../font/Empresas/Meridiano/AntennaCond-Light.eot);
+    src: url(../../../font/Empresas/Meridiano/AntennaCond-Light.eot?#iefix) format('embedded-opentype'),url(../../../font/Empresas/Meridiano/AntennaCond-Light.woff2) format('woff2'),url(../../../font/Empresas/Meridiano/AntennaCond-Light.woff) format('woff'),url(../../../font/Empresas/Meridiano/AntennaCond-Light.ttf) format('truetype'),url(../../../font/Empresas/Meridiano/AntennaCond-Light.svg#AntennaCond-Light) format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+@font-face {
+    font-family: 'AntennaCond-Light';
+    src: url('../../../font/Empresas/Meridiano.Antenna/AntennaCond-Light.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'AntennaCond-Light';
+    src: url('../../../font/Empresas/Meridiano.Antenna/AntennaCond-Light.svg') format('svg');
+}
+@font-face {
+    font-family: 'AntennaCond-Light';
+    src: url('../../../font/Empresas/Meridiano.Antenna/AntennaCond-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AntennaCond-Light';
+    src: url('../../../font/Empresas/Meridiano.Antenna/AntennaCond-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'AntennaCond-Light';
+    src: url('../../../font/Empresas/Meridiano.Antenna/AntennaCond-Light.woff2') format('woff2');
+}
+button, .btn {
+    font-family: 'AntennaCond-Light' !important;
+    font-weight: bold;
+}
+body{
+    font-family: 'AntennaCond-Light' !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    overflow-y: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 100;
+}
+
+.navbar-inverse {
+    background-color: #FEED00;
+    border-color: #FEED00;
+    border-top: 2px solid red;
+    border-bottom: none;
+}
+
+.navbar-brand {
+    background-image: url('../../../Asset/Empresas.Logo/logoMeridiano.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 196px;
+    background-position: 5px 2px;
+    height: 58px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: red;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        color: red;
+        border-bottom: 2px solid red;
+    }
+
+div#bs-example-navbar-collapse-1 li > .dropdown-menu {
+    border: none;   
+    background-image: unset;
+}
+
+.btn-lobby {
+    color: red;
+}
+
+    .btn-lobby:hover {
+        color: yellow;
+    }
+
+.btn-group button:hover {
+    background-color: unset;
+    background-image: unset;
+    color: red;
+}
+btn-group button:hover span.Btn-Menu{
+    color:black;
+}
+
+.btn-group button.btn.btn-default, .btn-group button.btn.btn-primary, .nav.navbar-nav .btn-default {
+    background: transparent;
+    background: unset;
+    border: none;
+    color: black;
+}
+.btn-group button.btn.btn-default:hover, .btn-group button.btn.btn-primary:hover, .nav.navbar-nav .btn-default:hover {
+    color: red;
+}
+.btn-group button.btn.btn-default:hover .Btn-Menu, .btn-group button.btn.btn-primary:hover .Btn-Menu, .nav.navbar-nav .btn-default:hover .Btn-Menu {
+    color: black;
+}
+.btn-group button.btn.btn-default:focus .Btn-Menu, .btn-group button.btn.btn-primary:focus .Btn-Menu, .nav.navbar-nav .btn-default:focus .Btn-Menu {
+    color: red;
+}
+ .nav.navbar-nav .megamenu .btn-primary:hover .Btn-Menu{
+     color: white;
+ }
+
+#btnInicioSsesion {
+    padding: 2px 23px;
+}
+
+.btn-lobby > h5 {
+    color: white;
+}
+
+.btn-lobby:hover > h5 {
+    color: white !important;
+}
+
+#GroupBtnLvl1 button:focus, #GroupBtnLvl1 button:active {
+    background-color: #232323;
+    background-image: unset;
+    border-bottom: none;
+    color: white;
+}
+
+#btnInicioSsesion > a > span {
+    color: white;
+}
+
+.modal-header, .modal-title {
+    background: #CA2736;
+    color: white;
+}
+
+#LoginAceptar, #deposito,#depositoCasino {
+    background-color: #94000C;
+    border: 1px solid #94000C;
+    border-radius: 0;
+}
+
+    #LoginAceptar:hover, #deposito:hover {
+        background-color: black;
+        border: 1px solid black;
+    }
+
+#btLCancelar, #transferencia,#transferenciaCasino {
+    background-color: gray;
+    border: none;
+    border-radius: 0;
+}
+
+    #btLCancelar:hover, #transferencia:hover,#depositoCasino:hover,#transferenciaCasino:hover{
+        background-color: black;
+        border: none;
+    }
+
+#Billetera .modal-body,#BilleteraCasinoModal .modal-body{
+    background-color: #e0e1e3;
+}
+
+    #Billetera .modal-body > .list-group > .list-group-item, #BilleteraCasinoModal .modal-body > .list-group > .list-group-item {
+        background-color: #313130;
+        border: 1px solid #e0e1e3;
+        color: white;
+    }
+
+
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color: red;
+    background-image: unset;
+}
+
+#ClickReport + ul, #ApuestaFinanciera ul {
+    /* padding: 5px; */
+}
+
+#gold {
+    display: none;
+}
+
+
+#GroupBtnLvl2 button:hover {
+    border-bottom: unset;
+}
+
+#SaldoRetirado {
+    background-image: url('../Asset/SaldoRetirado_Meridiano.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+ul.dropdown-menu {
+    background-color: black;
+    color: white;
+}
+
+    ul.dropdown-menu > li {
+        color: white;
+    }
+
+        ul.dropdown-menu > li > a {
+            color: white;
+        }
+
+
+button .Btn-Menu {
+    /* font-weight: bold; */
+    text-transform: uppercase;
+}
+
+
+
+
+
+#meridianoLogoLoading {
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -80px;
+}
+
+    #meridianoLogoLoading > img {
+        animation-name: animar;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+@keyframes animar {
+  
+
+    50% {
+        opacity: .38;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.bar {
+    float: left;
+    width: 15px;
+    height: 6px;
+    border-radius: 2px;
+    background-color: yellow;
+    margin-top:10px;
+}
+#meridianoLogoLoading h5{
+    margin-top:25px;
+    margin-left: 17px;
+}
+
+#meridianoLogoLoading .bar {
+    animation: loadingJ 1.3s cubic-bezier(.17,.37,.43,.67) infinite;
+}
+
+@keyframes loadingJ {
+    0%,100% {
+        transform: translate(0,0);
+    }
+
+    50% {
+        transform: translate(80px,0);
+        background-color: red;
+        width: 25px;
+    }
+}
+
+
+#btnInicioSsesion .lusbert-user{
+    color: black;
+}
+#Field_Perfil{
+    background-color:transparent;
+}
+#Field_Perfil a{
+    background-color:transparent;
+}
+#Field_Perfil a:hover,#Field_Perfil a:focus{
+    color: black;
+    background-color: unset;
+}
+#Field_Perfil .lusbert-user, #Field_Perfil .lusbert-bell{
+    color:crimson;
+}
+#Field_Perfil .badge{
+    background-color:black;
+}
+
+#btnInicioSsesion .userNickName{
+    display:none;
+}
+
+#aviso{
+    display:none;
+}
+
+#btnInicioSsesion {
+    height: 58px;
+    background-image:unset;
+    background-color:transparent;
+}
+@media screen and (min-device-width: 1350px) and (max-device-width: 1450px) {
+    .navbar{
+        min-height:40px;
+    }
+    .navbar-header {
+        height: 42px;
+    }
+    .navbar-brand {
+        background-image: url('../../../Asset/Empresas.Logo/logoMeridiano.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width: 100%;
+        height: 42px;
+    }
+    #bs-example-navbar-collapse-1 > ul > li > a {
+        padding-top: 0;
+    } 
+    #GroupBtnLvl1 button {
+        height: 42px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    #btnInicioSsesion > a{
+        padding:0;
+    }
+    #btnInicioSsesion{
+       padding: 11px;
+    }
+    #Field_Perfil a {
+        height: 43px;
+       line-height: 3.5;
+    }       
+    #Field_Perfil .badge {
+        background-color: black;
+        margin-top: 1px;
+    }
+}
+
+
+.someSite{
+    display:none;
+}
+
+#Notification_usuario #contenidoModal.modal-body{
+    color:white;
+}
+#Field_Perfil .dropdown-menu {
+    border: none;
+    background-color:red;
+    background-image: unset;
+    color: white;
+}
+
+
+.modal-body.center-block{
+    color:white;
+}
+.megamenu, .dropdown-menu.megamenu.row.GroupBtnLvl1 {
+    border-top: 4px solid red;
+    background: rgb(125,126,125);
+    background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+    color:white;
+}
+.megamenu .Btn-Menu {color:white;}
+.modal-footer {
+    color:white
+}
+
+.modal-body > .list-group > .list-group-item, .modal-body > .list-group > .list-group-item, .list-group-item {
+    background-color: #313130;
+    border: 1px solid #e0e1e3;
+    color: white;
+}
+
+.modal-footer .btn.btn-secondary {
+    background-color: #7f7700;
+}
+
+.modal-footer .btn.btn-secondary:hover {
+    background-color: red;
+    color:white;
+}
+
+
+#LogoLoading.rk_intro div.logoImg {
+    background-image: url('../../../Asset/Empresas.Logo/logoMeridiano.png');
+}
+
+#LogoLoading.rk_intro .bar {
+    background-color: #feed00;
+}
+
+@keyframes loadingJ {
+    0%,100% {
+        transform: translate(0,0);
+    }
+
+    50% {
+        transform: translate(180px,0);
+        background-color: #c10012;
+        width: 15px;
+    }
+}
+
+.btn-remates:first-child {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-remates:first-child:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-remates:last-child {
+    background-color: #94000c;
+    border-color: #94000c;
+    color:white;
+}
+
+.btn-remates:last-child:hover {
+    background-color: black;
+    border-color: black;
+}
